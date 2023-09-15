@@ -1,11 +1,11 @@
 {
-    "name": "dsoares/lastlogin",
+    "name": "titanomachy/lastlogin",
     "type": "roundcube-plugin",
     "description": "Roundcube plugin to save and show user login information and login history.",
     "keywords": ["mail", "login", "history"],
-    "homepage": "https://github.com/dsoares/roundcube-lastlogin",
+    "homepage": "https://github.com/titanomachy/roundcube-lastlogin",
     "license": "GPL-3.0+",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "authors": [
         {
             "name": "Diana Soares",
@@ -20,13 +20,13 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "roundcube/plugin-installer": ">=0.1.2",
-        "dsoares/geolocation": ">=0.1"
+        "php": "~8.2",
+        "roundcube/plugin-installer": "~0.3.1",
+        "dsoares/geolocation": "~0.1.3"
     },
     "extra": {
         "roundcube": {
-            "min-version": "1.0",
+            "min-version": "1.6",
             "sql-dir": "SQL"
         }
     }
